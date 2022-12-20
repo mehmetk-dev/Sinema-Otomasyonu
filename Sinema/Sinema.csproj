@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0198BD56-068B-4779-A833-BF9F0E907C41}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Sinema</RootNamespace>
+    <AssemblyName>Sinema</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bilet_Fiyat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bilet_Fiyat.Designer.cs">
+      <DependentUpon>Bilet_Fiyat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bilet_Sat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bilet_Sat.Designer.cs">
+      <DependentUpon>Bilet_Sat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.cs">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Film_Düzen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Film_Düzen.Designer.cs">
+      <DependentUpon>Film_Düzen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Film_Ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Film_Ekle.Designer.cs">
+      <DependentUpon>Film_Ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Film_Göster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Film_Göster.Designer.cs">
+      <DependentUpon>Film_Göster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kodlar.cs" />
+    <Compile Include="Localization.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Localization.resx</DependentUpon>
+    </Compile>
+    <Compile Include="personel ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="personel ekle.Designer.cs">
+      <DependentUpon>personel ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Salon_Ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salon_Ekle.Designer.cs">
+      <DependentUpon>Salon_Ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Satış Listele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Satış Listele.Designer.cs">
+      <DependentUpon>Satış Listele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seanslar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seanslar.Designer.cs">
+      <DependentUpon>Seanslar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seans_Ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seans_Ekle.Designer.cs">
+      <DependentUpon>Seans_Ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sinemadbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sinemadbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sinemadbDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sinemadbDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sinemadbDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sinemadbDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sinemadbDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sinemadbDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sinemadbDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sinemadbDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Yönetici Ekranı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yönetici Ekranı.Designer.cs">
+      <DependentUpon>Yönetici Ekranı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="üyeler.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>üyeler.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Bilet_Fiyat.resx">
+      <DependentUpon>Bilet_Fiyat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bilet_Sat.resx">
+      <DependentUpon>Bilet_Sat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Film_Düzen.resx">
+      <DependentUpon>Film_Düzen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Film_Ekle.resx">
+      <DependentUpon>Film_Ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Film_Göster.resx">
+      <DependentUpon>Film_Göster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization.en-US.resx" />
+    <EmbeddedResource Include="Localization.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Localization.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="personel ekle.resx">
+      <DependentUpon>personel ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Salon_Ekle.resx">
+      <DependentUpon>Salon_Ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Satış Listele.resx">
+      <DependentUpon>Satış Listele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seanslar.resx">
+      <DependentUpon>Seanslar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seans_Ekle.resx">
+      <DependentUpon>Seans_Ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yönetici Ekranı.resx">
+      <DependentUpon>Yönetici Ekranı.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="sinemadbDataSet.xsc">
+      <DependentUpon>sinemadbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="sinemadbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sinemadbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sinemadbDataSet.xss">
+      <DependentUpon>sinemadbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="sinemadbDataSet1.xsc">
+      <DependentUpon>sinemadbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="sinemadbDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sinemadbDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sinemadbDataSet1.xss">
+      <DependentUpon>sinemadbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="sinemadbDataSet2.xsc">
+      <DependentUpon>sinemadbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="sinemadbDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sinemadbDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sinemadbDataSet2.xss">
+      <DependentUpon>sinemadbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="sinemadbDataSet3.xsc">
+      <DependentUpon>sinemadbDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="sinemadbDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sinemadbDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sinemadbDataSet3.xss">
+      <DependentUpon>sinemadbDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="sinemadbDataSet4.xsc">
+      <DependentUpon>sinemadbDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="sinemadbDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sinemadbDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sinemadbDataSet4.xss">
+      <DependentUpon>sinemadbDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="üyeler.xsc">
+      <DependentUpon>üyeler.xsd</DependentUpon>
+    </None>
+    <None Include="üyeler.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>üyeler.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="üyeler.xss">
+      <DependentUpon>üyeler.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

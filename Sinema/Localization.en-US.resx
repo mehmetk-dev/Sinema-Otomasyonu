@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="adsoyad" xml:space="preserve">
+    <value>Name Surname</value>
+  </data>
+  <data name="afişekle" xml:space="preserve">
+    <value>Add Banner</value>
+  </data>
+  <data name="baslik" xml:space="preserve">
+    <value>Cinema Ticket Sales Automation</value>
+  </data>
+  <data name="bilet" xml:space="preserve">
+    <value>Ticket</value>
+  </data>
+  <data name="biletfiyat" xml:space="preserve">
+    <value>Ticket prices</value>
+  </data>
+  <data name="biletiptal" xml:space="preserve">
+    <value>Ticket Cancellation</value>
+  </data>
+  <data name="biletsat" xml:space="preserve">
+    <value>Sell ​​Tickets</value>
+  </data>
+  <data name="biletsatildi" xml:space="preserve">
+    <value>Ticket Sold</value>
+  </data>
+  <data name="biletsatış" xml:space="preserve">
+    <value>Ticket Sales</value>
+  </data>
+  <data name="bilettipi" xml:space="preserve">
+    <value>Ticket Type</value>
+  </data>
+  <data name="bilgilerguncellendi" xml:space="preserve">
+    <value>Information Updated.</value>
+  </data>
+  <data name="bilgileriguncelle" xml:space="preserve">
+    <value>Update Information</value>
+  </data>
+  <data name="dikkat" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="dil" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="ekle" xml:space="preserve">
+    <value>Add </value>
+  </data>
+  <data name="eklendi" xml:space="preserve">
+    <value>Movie Added Successfully.</value>
+  </data>
+  <data name="ekleneceksalonid" xml:space="preserve">
+    <value>Enter the Hall Name You Want to Add</value>
+  </data>
+  <data name="eklenmedi" xml:space="preserve">
+    <value>Adding movies failed.</value>
+  </data>
+  <data name="film" xml:space="preserve">
+    <value>Movie</value>
+  </data>
+  <data name="filmadi" xml:space="preserve">
+    <value>Movie Name</value>
+  </data>
+  <data name="filmbilgileri" xml:space="preserve">
+    <value>Movie information</value>
+  </data>
+  <data name="filmekle" xml:space="preserve">
+    <value>Add Movie</value>
+  </data>
+  <data name="filmid" xml:space="preserve">
+    <value>Movie ID</value>
+  </data>
+  <data name="filmislem" xml:space="preserve">
+    <value>Film Operations</value>
+  </data>
+  <data name="filmlerilistele" xml:space="preserve">
+    <value>List Movies</value>
+  </data>
+  <data name="filmsilindi" xml:space="preserve">
+    <value>Movie Deleted.</value>
+  </data>
+  <data name="filmsüresi" xml:space="preserve">
+    <value>Movie Duration</value>
+  </data>
+  <data name="filmtarihi" xml:space="preserve">
+    <value>Movie Day</value>
+  </data>
+  <data name="filmtürü" xml:space="preserve">
+    <value>Movie Genre</value>
+  </data>
+  <data name="filmulke" xml:space="preserve">
+    <value>Movie Country</value>
+  </data>
+  <data name="fiyatguncellendi" xml:space="preserve">
+    <value>Price Updated.</value>
+  </data>
+  <data name="geriyedonukislem" xml:space="preserve">
+    <value>Retroactive action is not possible.</value>
+  </data>
+  <data name="guncelle" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="hata" xml:space="preserve">
+    <value>Do not leave blank space!!</value>
+  </data>
+  <data name="hataa" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="islemyap" xml:space="preserve">
+    <value>Take action?</value>
+  </data>
+  <data name="işlembaşarılı" xml:space="preserve">
+    <value>Transaction Successful.</value>
+  </data>
+  <data name="kayıt" xml:space="preserve">
+    <value>Entry</value>
+  </data>
+  <data name="koltukiptalbasarili" xml:space="preserve">
+    <value>Ticket Cancellation Successful</value>
+  </data>
+  <data name="koltukno" xml:space="preserve">
+    <value>Seat Number</value>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="menu" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="ogrenci" xml:space="preserve">
+    <value>Student Ticket</value>
+  </data>
+  <data name="oturumukapat" xml:space="preserve">
+    <value>Sign Out</value>
+  </data>
+  <data name="oyuncular" xml:space="preserve">
+    <value>Cast</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="perde" xml:space="preserve">
+    <value>S    C      R      E      E    N</value>
+  </data>
+  <data name="personel" xml:space="preserve">
+    <value>Personnel</value>
+  </data>
+  <data name="personelbilgi" xml:space="preserve">
+    <value>Update Personnel Information</value>
+  </data>
+  <data name="personelbilgileri" xml:space="preserve">
+    <value>Personnel Information</value>
+  </data>
+  <data name="personelekle" xml:space="preserve">
+    <value>Add Perssonnel</value>
+  </data>
+  <data name="personeleklendi" xml:space="preserve">
+    <value>Added Personnel.</value>
+  </data>
+  <data name="personeleklenemedi" xml:space="preserve">
+    <value>Personnel could not be added.</value>
+  </data>
+  <data name="personelislem" xml:space="preserve">
+    <value>Personnel Transactions</value>
+  </data>
+  <data name="personelsil" xml:space="preserve">
+    <value>Delete Personnel</value>
+  </data>
+  <data name="personelsilindi" xml:space="preserve">
+    <value>Personnel Deleted.</value>
+  </data>
+  <data name="personelsilinemedi" xml:space="preserve">
+    <value>Failed to Delete Personnel.</value>
+  </data>
+  <data name="rezerveet" xml:space="preserve">
+    <value>Reserve</value>
+  </data>
+  <data name="salon" xml:space="preserve">
+    <value>Cinema Hall</value>
+  </data>
+  <data name="salonbilgileri" xml:space="preserve">
+    <value>Cinema Hall Information</value>
+  </data>
+  <data name="saloneklendi" xml:space="preserve">
+    <value>Hall Added.</value>
+  </data>
+  <data name="saloneklevesil" xml:space="preserve">
+    <value>Add and Delete Cinema Hall</value>
+  </data>
+  <data name="salonno" xml:space="preserve">
+    <value>Hall No</value>
+  </data>
+  <data name="salonsilindi" xml:space="preserve">
+    <value>Hall Deleted.</value>
+  </data>
+  <data name="satis" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="satisid" xml:space="preserve">
+    <value>Sales ID</value>
+  </data>
+  <data name="satislistele" xml:space="preserve">
+    <value>Sales List</value>
+  </data>
+  <data name="satışlistele" xml:space="preserve">
+    <value>List Sales</value>
+  </data>
+  <data name="seans" xml:space="preserve">
+    <value>Session</value>
+  </data>
+  <data name="seansekle" xml:space="preserve">
+    <value>Add Session</value>
+  </data>
+  <data name="seanseklemebasarili" xml:space="preserve">
+    <value>Add Session Successful.</value>
+  </data>
+  <data name="seansid" xml:space="preserve">
+    <value>Session ID</value>
+  </data>
+  <data name="seanslar" xml:space="preserve">
+    <value>Sessions</value>
+  </data>
+  <data name="seanssecimiyapmadın" xml:space="preserve">
+    <value>You Didn't Make a Session Selection.</value>
+  </data>
+  <data name="seanssil" xml:space="preserve">
+    <value>Delete Session</value>
+  </data>
+  <data name="seanssilindi" xml:space="preserve">
+    <value>Session Deleted.</value>
+  </data>
+  <data name="seansı" xml:space="preserve">
+    <value>Seansı</value>
+  </data>
+  <data name="sil" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="silfilm" xml:space="preserve">
+    <value>Enter the movie ID number to be deleted.</value>
+  </data>
+  <data name="silinecekpersonel" xml:space="preserve">
+    <value>ID of the personnel to be deleted</value>
+  </data>
+  <data name="silineceksalonid" xml:space="preserve">
+    <value>Enter Hall ID to be deleted.</value>
+  </data>
+  <data name="silinecekseansid" xml:space="preserve">
+    <value>Enter the ID of the session to be deleted.</value>
+  </data>
+  <data name="silmeptal" xml:space="preserve">
+    <value>Movie deletion cancelled.</value>
+  </data>
+  <data name="tambilet" xml:space="preserve">
+    <value>Full Ticket</value>
+  </data>
+  <data name="tarih" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="toplamsatış" xml:space="preserve">
+    <value>Total Sales</value>
+  </data>
+  <data name="tümsatış" xml:space="preserve">
+    <value>All Sales</value>
+  </data>
+  <data name="ucret" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="username" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="uyari" xml:space="preserve">
+    <value>Check their information!!</value>
+  </data>
+  <data name="uyeid" xml:space="preserve">
+    <value>Personnel ID</value>
+  </data>
+  <data name="vizyondakifilmler" xml:space="preserve">
+    <value>Movies in theaters</value>
+  </data>
+  <data name="vizyontarih" xml:space="preserve">
+    <value>Release Date</value>
+  </data>
+  <data name="yapımyılı" xml:space="preserve">
+    <value>Year of construction</value>
+  </data>
+  <data name="yoneticipaneli" xml:space="preserve">
+    <value>Admin Panel</value>
+  </data>
+  <data name="yonetmen" xml:space="preserve">
+    <value>Director</value>
+  </data>
+  <data name="özet" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+</root>
